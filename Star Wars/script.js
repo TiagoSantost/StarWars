@@ -112,7 +112,7 @@ function pegarPesoAltura(){
                     lista.appendChild(option);
             
 
-                    console.log (lista);
+                  
                     
                    
             
@@ -145,7 +145,7 @@ function mostrar_personagem(eve){
             altura_personagem.push(JSON.parse(selected[i].getAttribute('nome')))
         }
     }   
-   console.log(altura_personagem);
+   
 
     //Logica cor da pele verde
    for(let i = 0; i<selected.length; i++){
@@ -154,7 +154,7 @@ function mostrar_personagem(eve){
        cor_personagem.push(JSON.parse(selected[i].getAttribute('nome')))
     }
 }   
-    console.log(cor_personagem);
+    
 
    //Logica Massa maior que 100
    for(let i = 0; i<selected.length; i++){
@@ -163,7 +163,7 @@ function mostrar_personagem(eve){
         peso_personagem.push(JSON.parse(selected[i].getAttribute('nome')))
     }
 }   
-    console.log(peso_personagem);
+    
 
 
     //Logica exibir nome
@@ -171,7 +171,6 @@ function mostrar_personagem(eve){
         nome_personagens.push(JSON.parse(selected[i].getAttribute('nome')))
      }
   
- console.log(nome_personagens);
 
    
     //Jogar nome no html
